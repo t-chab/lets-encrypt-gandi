@@ -2,7 +2,7 @@
 
 # Hook script mainly adapted from https://www.aaflalo.me/2017/02/lets-encrypt-with-dehydrated-dns-01/
 
-set -x
+# set -x
 
 if [ -z "${API_KEY}" ]; then
     echo "Can't find API key. Please export API_KEY environment variable !"
