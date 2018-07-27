@@ -36,7 +36,7 @@ WORKDIR=data DOMAIN='*.mydomain.tld' API_KEY="Your_Gandi_Live_DNS_API_KEY" ./run
 You can also use the Docker image if you prefer (in a crontab for example)
 
 ```sh
-docker run -e DOMAIN='*.mydomain.tld' -e API_KEY="Your_Gandi_Live_DNS_API_KEY" -v /directory/to/your/conf:/data --rm letsencrypt
+docker run -e DOMAIN='*.mydomain.tld' -e API_KEY="Your_Gandi_Live_DNS_API_KEY" -v /directory/to/your/conf:/data --rm tchabaud/letsencrypt
 ```
 
 Enjoy, and feel free to open [issues](https://github.com/tchabaud/lets-encrypt-gandi/issues) if you encounter problems.
